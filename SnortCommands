@@ -1,0 +1,54 @@
+ids = كشف التسل (intrusion detection system)
+ids = ينبهك عن نمط حركه لمرور 
+IDS - IPS - NIDS - NIPS  كلهم يعملون علئ Rules
+IDS يراقب الTRAFFIC ويحلل  الشبكه
+IDS alerts you and Log the traffic IDS مايرفض الحزم او يرميها 
+IPS (intrusion prevention system) 
+
+
+Intrusion Detection System (IDS)
+نظام كشف التسلل (IDS)
+
+Intrusion Prevention System (IPS)
+نظام منع التسلل (IPS)
+
+Network Intrusion Prevention System (NIPS) - NIPS monitors the traffic flow from various areas of the network. The aim is to protect the traffic on the entire subnet. If a signature is identified, the connection is terminated
+
+نظام منع اختراق الشبكة (NIPS) - يراقب NIPS تدفق حركة المرور من مناطق مختلفة من الشبكة. الهدف هو حماية حركة المرور على الشبكة الفرعية بأكملها. إذا تم تحديد توقيع، يتم إنهاء الاتصال.
+
+
+sudo snort -c "/etc/snort/snort.conf" -v for traffic
+
+sudo snort -i eth0 -v (for traffic)
+sudo snort -i eth0 -d (for more detiles)
+sudo snort -i eth0 -e (for link layer header جميع التفاصيل  )
+sudo snort -e (header of the packets)
+sudo snort -X (dump full packet mode)
+sudo snort -X  -l . (save results)
+sudo snort -r snort.log.1718103747  (read the log)
+sudo snort -v -l . (for traffic and save the log file)
+sudo snort -r snort.log.1718104362 'port 80' (filtter the result)
+sudo snort  -X -l . (full dump packt with save log )
+sudo snrt -dev -K ASCII -l . (for read from humen)
+
+
+https://motasem-notes.net/snort-ids-ips-complete-practical-guide-tryhackme/
+
+
+Parameter البارامتر	Description وصف
+-v	Verbose. Display the TCP/IP output in the console.
+مطول. عرض إخراج TCP/IP في وحدة التحكم.
+-d	Display the packet data (payload).
+عرض حزم البيانات (الحمولة).
+-e	Display the link-layer (TCP/IP/UDP/ICMP) headers. 
+عرض رؤوس طبقة الارتباط (TCP / IP / UDP / ICMP).
+-X	Display the full packet details in HEX.
+عرض تفاصيل الحزمة الكاملة في HEX.
+-i	This parameter helps to define a specific network interface to listen/sniff. Once you have multiple interfaces, you can choose a specific interface to sniff. 
+تساعد هذه المعلمة في تحديد واجهة شبكة معينة للاستماع / الشم. بمجرد أن يكون لديك واجهات متعددة ، يمكنك اختيار واجهة معينة لشمها.
+
+
+sudo chown -R ubuntu:ubuntu 145.254.160.237
+
+
+
