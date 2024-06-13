@@ -1,1 +1,8 @@
+Please Read The Comment (الرجاء قراءه الي داخل القوسين)
+
+
+
+sudo snort -c /etc/snort/snort.conf -A full -l . (very import to select the snort configuration file if you wanna run ids/ips) arabic ---> (مره مهم انك تحدد ملف سنورت الخاص  في configration  file نفس  /etc/snort/snort.conf عشان تفعل  ids/ips)
+okay now  -A full (هذا  راح يضهر كامل التفاصيل مثل التهديدات وغيره ) eng ---> (That show you all detiles like alerts and other things)
+-l (save the log file)
 
