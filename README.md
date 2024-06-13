@@ -24,8 +24,7 @@
 اكتساب خبرة عملية: من خلال التدريب العملي، والمشاريع، وحتى المساهمة في مشاريع المصادر المفتوحة.
 استمرارك في تطوير مهاراتك وزيادة معرفتك في هذا المجال سيفتح أمامك المزيد من الفرص المهنية في أمن المعلومات.
 
-=============================================================================================================================================================================================================================================================================
-ث
+=======================================================================================================================================
 Learning how to use Snort is a very good step in the field of information security and networking. Snort is an intrusion detection system (IDS) and network monitoring tool used to detect suspicious activities and potential attacks on a network. Since you've learned Snort, it means you've gained experience in intrusion detection and network security.
 
 What it Means to Have Experience with Snort:
